@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 @font-face {
@@ -25,17 +26,14 @@
   top: 0%;
   bottom: 66.21%;
   font-family: Post No Bills Colombo Medium;
-  font-style: normal;
-  font-weight: 500;
   font-size: 96px;
-  line-height: 20px;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.01px;
   color: #ffffff;
   margin-left: 20px;
   margin-top: 20px;
+  user-select: none;
 }
 
 #login {
@@ -49,9 +47,10 @@
   width: 152px;
   height: 51.23px;
   font-size: 15px;
-  line-height: 18px;
-  letter-spacing: -0.01px;
   color: #073590;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid transparent;
 }
 
 #rezervacijas {
@@ -64,12 +63,11 @@
   border-radius: 8px;
   width: 178.67px;
   height: 51.23px;
-  border-radius: 8px;
-  position: absolute;
   font-size: 15px;
-  line-height: 18px;
-  letter-spacing: -0.01px;
   color: #073590;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .apaksejaisBaneris {
@@ -78,7 +76,6 @@
   right: 0%;
   top: 50%;
   bottom: 0%;
-
   background: rgba(186, 182, 182, 0.53);
 }
 
@@ -103,7 +100,6 @@
   bottom: 11.81%;
   width: 880px;
   height: 409.25px;
-  background: url(image.png);
   border: 5px solid #073590;
   box-sizing: border-box;
   border-radius: 20px;
@@ -115,30 +111,53 @@
   right: 55.56%;
   top: 50%;
   bottom: 40.43%;
-  border-radius: 10px;
   width: 489.33px;
   height: 48.45px;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+  border: 1px solid transparent;
 }
 
 .mekletUz {
   position: absolute;
-  left: 44.64%;
+  left: 45%;
   right: 29.9%;
   top: 50%;
   bottom: 40.93%;
-  border-radius: 10px;
   width: 489.33px;
   height: 48.45px;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+  border: 1px solid transparent;
 }
 
 #meklet {
   position: absolute;
-  left: 70.31%;
+  left: 71%;
   right: 18.99%;
   top: 50.19%;
   bottom: 40.33%;
-  background: #f1c933;
-  border-radius: 8px;
   width: 205.33px;
   height: 51.23px;
+  background: #f1c933;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+#datums {
+  position: absolute;
+  left: 18.96%;
+  right: 55.57%;
+  top: 62%;
+  bottom: 30.74%;
+  border-radius: 10px;
+  width: 489px;
+  height: 51px;
+  padding-left: 20px;
+  outline: none;
+  border: 1px solid transparent;
 }
