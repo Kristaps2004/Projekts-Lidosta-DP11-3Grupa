@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Post No Bills Colombo Medium";
+  src: url("/fonts/post-no-bills-colombo.medium.ttf");
+}
+
+.augsejaisBaneris {
+  position: absolute;
+  left: -0.07%;
+  right: 0.07%;
+  top: 0%;
+  bottom: 84.28%;
+
+  background: #073590;
+}
+.virsraksts {
+  position: absolute;
+  left: 0%;
+  right: 71.74%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: Post No Bills Colombo Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 20px;
+  /* or 21% */
+
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01px;
+
+  color: #ffffff;
+}
+
+#iziet {
+  position: absolute;
+  width: 114px;
+  height: 48px;
+  left: 89.1%;
+  right: 2.99%;
+  top: 35.4%;
+  bottom: 34.78%;
+
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: none;
+}
+.apaksejaisBaneris {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 15.72%;
+  bottom: 0%;
+
+  background: rgba(186, 182, 182, 0.53);
+}
