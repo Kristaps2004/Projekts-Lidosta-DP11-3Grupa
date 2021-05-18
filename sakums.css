@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Post No Bills Colombo Medium";
+  src: url("/fonts/post-no-bills-colombo.medium.ttf");
+}
+
+.augsejaisBaneris {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 50%;
+  background: #073590;
+}
+
+.virsraksts {
+  position: absolute;
+  left: 0%;
+  right: 70.97%;
+  top: 0%;
+  bottom: 66.21%;
+  font-family: Post No Bills Colombo Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01px;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#login {
+  position: absolute;
+  left: 90.35%;
+  right: 1.74%;
+  top: 4.55%;
+  bottom: 85.97%;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 114px;
+  height: 48.57px;
+  position: absolute;
+
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.01px;
+  color: #073590;
+}
+
+#rezervacijas {
+  position: absolute;
+  left: 79.79%;
+  right: 10.9%;
+  top: 4.49%;
+  bottom: 86.02%;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 134px;
+  height: 48.57px;
+  border-radius: 8px;
+  position: absolute;
+
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01px;
+
+  color: #073590;
+}
+
+.apaksejaisBaneris {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 50%;
+  bottom: 0%;
+
+  background: rgba(186, 182, 182, 0.53);
+}
