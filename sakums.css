@@ -46,10 +46,8 @@
   bottom: 85.97%;
   background: #ffffff;
   border-radius: 8px;
-  width: 114px;
-  height: 48.57px;
-  position: absolute;
-
+  width: 152px;
+  height: 51.23px;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: -0.01px;
@@ -64,18 +62,13 @@
   bottom: 86.02%;
   background: #ffffff;
   border-radius: 8px;
-  width: 134px;
-  height: 48.57px;
+  width: 178.67px;
+  height: 51.23px;
   border-radius: 8px;
   position: absolute;
-
   font-size: 15px;
   line-height: 18px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: -0.01px;
-
   color: #073590;
 }
 
@@ -87,4 +80,65 @@
   bottom: 0%;
 
   background: rgba(186, 182, 182, 0.53);
+}
+
+.attels1 {
+  position: absolute;
+  left: 2.43%;
+  right: 51.74%;
+  top: 12.4%;
+  bottom: 11.81%;
+  width: 880px;
+  height: 409.25px;
+  border: 5px solid #073590;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.attels2 {
+  position: absolute;
+  left: 50.9%;
+  right: 3.26%;
+  top: 12.4%;
+  bottom: 11.81%;
+  width: 880px;
+  height: 409.25px;
+  background: url(image.png);
+  border: 5px solid #073590;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.mekletNo {
+  position: absolute;
+  left: 18.96%;
+  right: 55.56%;
+  top: 50%;
+  bottom: 40.43%;
+  border-radius: 10px;
+  width: 489.33px;
+  height: 48.45px;
+}
+
+.mekletUz {
+  position: absolute;
+  left: 44.64%;
+  right: 29.9%;
+  top: 50%;
+  bottom: 40.93%;
+  border-radius: 10px;
+  width: 489.33px;
+  height: 48.45px;
+}
+
+#meklet {
+  position: absolute;
+  left: 70.31%;
+  right: 18.99%;
+  top: 50.19%;
+  bottom: 40.33%;
+  background: #f1c933;
+  border-radius: 8px;
+  width: 205.33px;
+  height: 51.23px;
 }
