@@ -77,3 +77,258 @@
   bottom: 0%;
   background: rgba(186, 182, 182, 0.53);
 }
+
+#kalendars {
+  position: absolute;
+  left: 9.79%;
+  right: 72.78%;
+  top: 5.45%;
+  bottom: 88.76%;
+  width: 334.67px;
+  height: 52.73px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.fons {
+  position: absolute;
+  left: 9.79%;
+  right: 9.86%;
+  top: 17.27%;
+  bottom: 64.43%;
+  width: 1542.67px;
+  height: 166.64px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.reisaNumurs {
+  position: absolute;
+  left: 2.42%;
+  right: 89.37%;
+  top: 7.59%;
+  bottom: 81.01%;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01px;
+  color: #898181;
+}
+
+.lidmasina {
+  position: absolute;
+  left: 32.07%;
+  right: 38.2%;
+  top: 29.75%;
+  bottom: 44.3%;
+  width: 458.67px;
+  height: 43.24px;
+}
+
+.pasazieris {
+  position: absolute;
+  left: 9.93%;
+  right: 9.86%;
+  top: 41.6%;
+  bottom: 16.92%;
+  width: 1540px;
+  height: 377.58px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.miniVirsraksts {
+  position: absolute;
+  left: 4.05%;
+  right: 84.26%;
+  top: 12.07%;
+  bottom: 83.17%;
+  font-weight: normal;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+#vards {
+  position: absolute;
+  left: 3.46%;
+  right: 92.9%;
+  top: 30.73%;
+  bottom: 64.25%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.vards {
+  position: absolute;
+  left: 3.46%;
+  right: 72.29%;
+  top: 38.83%;
+  bottom: 50%;
+  width: 373.33px;
+  height: 42.19px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+}
+
+#uzvards {
+  position: absolute;
+  left: 3.46%;
+  right: 91.26%;
+  top: 58.1%;
+  bottom: 36.87%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.uzvards {
+  position: absolute;
+  left: 3.46%;
+  right: 72.29%;
+  top: 66.2%;
+  bottom: 22.63%;
+  width: 373.33px;
+  height: 42.19px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+}
+
+#vecums {
+  position: absolute;
+  left: 32.73%;
+  right: 61.3%;
+  top: 28.21%;
+  bottom: 66.76%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.vecums1 {
+  left: 32.73%;
+  right: 61.3%;
+  top: 35.75%;
+  bottom: 53.07%;
+  width: 92px;
+  height: 42, 19px;
+  margin-right: 2px;
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+}
+
+.vecums2 {
+  left: 39.57%;
+  right: 54.46%;
+  top: 35.75%;
+  bottom: 53.07%;
+  width: 92px;
+  height: 42, 19px;
+  margin-right: 2px;
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+}
+
+.vecums3 {
+  left: 46.41%;
+  right: 45.54%;
+  top: 35.75%;
+  bottom: 53.07%;
+  width: 92px;
+  height: 42, 19px;
+  margin-right: 2px;
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+}
+
+#dzimums {
+  position: absolute;
+  left: 32.21%;
+  right: 61.3%;
+  top: 58.1%;
+  bottom: 36.87%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.dzimums {
+  position: absolute;
+  left: 32.21%;
+  right: 43.55%;
+  top: 66.2%;
+  bottom: 22.63%;
+  width: 373.33px;
+  height: 42.19px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+}
+
+#tautiba {
+  position: absolute;
+  left: 60.26%;
+  right: 33.77%;
+  top: 28.21%;
+  bottom: 66.76%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.tautiba {
+  position: absolute;
+  left: 60.26%;
+  right: 15.5%;
+  top: 35.2%;
+  bottom: 53.63%;
+  width: 373.33px;
+  height: 42.19px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+}
