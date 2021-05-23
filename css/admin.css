@@ -1,8 +1,9 @@
-/** {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}*/
+  text-decoration: none;
+}
 
 @font-face {
   font-family: "Post No Bills Colombo Medium";
@@ -198,4 +199,174 @@
 
   background: #ffffff;
   border-radius: 10px;
+}
+
+#popUp {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#form {
+  position: absolute;
+  left: 25.36%;
+  right: 25.42%;
+  top: 21.94%;
+  bottom: 26.3%;
+  width: 945px;
+  height: 559px;
+  background: #ffffff;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.miniAugsa {
+  position: absolute;
+  width: 945px;
+  height: 77.89px;
+  left: 0x;
+  top: 0px;
+  background: #073590;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#miniVirsraksts {
+  position: absolute;
+  left: 2.01%;
+  right: 83.81%;
+  top: 3.76%;
+  bottom: 90.16%;
+  width: 134px;
+  height: 34px;
+  top: 14px;
+  left: 19px;
+  font-family: Post No Bills Colombo;
+  font-style: normal;
+  font-size: 36px;
+  display: flex;
+  color: #ffffff;
+}
+
+.tLidostasNosaukums {
+  position: absolute;
+  width: 250px;
+  height: 18px;
+  left: 41px;
+  top: 134px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  display: flex;
+  color: #000000;
+}
+
+.tSaīsinājums {
+  position: absolute;
+  width: 41px;
+  height: 18px;
+  left: 43px;
+  top: 227px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  display: flex;
+  color: #000000;
+}
+
+.tAdrese {
+  position: absolute;
+  width: 41px;
+  height: 18px;
+  left: 43px;
+  top: 326px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  display: flex;
+  color: #000000;
+}
+
+#LidostasNosaukums {
+  position: absolute;
+  left: 3.49%;
+  right: 3.07%;
+  top: 28.98%;
+  bottom: 63.86%;
+  width: 883px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#Saīsinājums {
+  position: absolute;
+  left: 3.49%;
+  right: 3.07%;
+  top: 46.33%;
+  bottom: 46.51%;
+  width: 883px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#Adrese {
+  position: absolute;
+  left: 3.49%;
+  right: 3.07%;
+  top: 64.58%;
+  bottom: 28.26%;
+  width: 883px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#pievienotp {
+  position: absolute;
+  left: 80.63%;
+  right: 3.07%;
+  top: 82.83%;
+  bottom: 8.59%;
+  width: 154px;
+  height: 48px;
+  background: #f1c933;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+#atcelt {
+  position: absolute;
+  left: 62.12%;
+  right: 21.59%;
+  top: 82.83%;
+  bottom: 8.59%;
+  width: 154px;
+  height: 48px;
+  background: #ababab;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid transparent;
 }

@@ -10,7 +10,8 @@
       rel="stylesheet"
     />
     <link href="css/admin.css" rel="stylesheet" />
-    <title>Admin</title>
+    <title>OrmondAir: Admin</title>
+    <link rel="icon" href="atteli/clipart-airplane-logo-4.jpg" />
   </head>
   <body>
     <div class="augsejaisBaneris">
@@ -43,5 +44,21 @@
         <button id="pievienot">Skatīt</button>
       </div>
     </div>
+    <div id="popUp">
+      <form id="form">
+        <div class="miniAugsa">
+          <h2 id="miniVirsraksts">OrmondAir</h2>
+        </div>
+        <h3 class="tLidostasNosaukums">Lidostas Nosaukums</h3>
+        <input type="text" id="LidostasNosaukums" placeholder="" />
+        <h3 class="tSaīsinājums">Saīsinājums</h3>
+        <input type="text" id="Saīsinājums" placeholder="" />
+        <h3 class="tAdrese">Adrese</h3>
+        <input type="text" id="Adrese" placeholder="" />
+        <button type="submit" id="pievienotp">Pievienot</button>
+        <button id="atcelt">Atcelt</button>
+      </form>
+    </div>
+    <script src="js/admin.js"></script>
   </body>
 </html>
