@@ -16,7 +16,6 @@
   right: 0.07%;
   top: 0%;
   bottom: 84.28%;
-
   background: #073590;
 }
 .virsraksts {
@@ -26,20 +25,10 @@
   top: 0%;
   bottom: 0%;
   width: 542.67px;
-
   font-family: Post No Bills Colombo Medium;
-  font-style: normal;
-  font-weight: 500;
   font-size: 96px;
-  line-height: 20px;
-  /* or 21% */
-
   display: flex;
   margin-left: 20px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: -0.01px;
-
   color: #ffffff;
 }
 
@@ -51,62 +40,51 @@
   right: 2.99%;
   top: 35.4%;
   bottom: 34.78%;
-
   background: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-style: none;
-
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  line-height: 18px;
-
   cursor: pointer;
 }
+
 .apaksejaisBaneris {
   position: absolute;
   left: 0%;
   right: 0%;
   top: 15.72%;
   bottom: 0%;
-
   background: rgba(186, 182, 182, 0.53);
 }
+
 .lidostas {
   position: absolute;
   left: 9.79%;
   right: 9.86%;
   top: 8.34%;
   bottom: 73.35%;
-
   background: #ffffff;
   border-radius: 10px;
 }
+
 .nosaukumi {
   position: absolute;
   left: 0%;
   right: 90.8%;
   top: 0.15%;
   bottom: 75.84%;
-
-  font-family: PT Sans;
-  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 24px;
-  line-height: 18px;
-  /* or 75% */
-
   display: flex;
   margin-left: 20px;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.01px;
   text-transform: uppercase;
-
   color: #000000;
 }
+
 #pievienot {
   position: absolute;
   width: 286.67px;
@@ -115,19 +93,78 @@
   right: 65.95%;
   top: 41.14%;
   bottom: 13.29%;
-
   background: #c4c4c4;
   border-radius: 10px;
   border-style: none;
-
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-  line-height: 18px;
-
   cursor: pointer;
 }
+
+#pievienotLidmasinas {
+  position: absolute;
+  width: 286.67px;
+  height: 75.94px;
+  left: 15.47%;
+  right: 65.95%;
+  top: 41.14%;
+  bottom: 13.29%;
+  background: #c4c4c4;
+  border-radius: 10px;
+  border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#pievienotReisi {
+  position: absolute;
+  width: 286.67px;
+  height: 75.94px;
+  left: 15.47%;
+  right: 65.95%;
+  top: 41.14%;
+  bottom: 13.29%;
+  background: #c4c4c4;
+  border-radius: 10px;
+  border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#labotLidmasinas {
+  position: absolute;
+  width: 286.67px;
+  height: 75.94px;
+  left: 38.46%;
+  right: 42.96%;
+  top: 41.14%;
+  bottom: 13.29%;
+  background: #c4c4c4;
+  border-radius: 10px;
+  border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#labotReisi {
+  position: absolute;
+  width: 286.67px;
+  height: 75.94px;
+  left: 38.46%;
+  right: 42.96%;
+  top: 41.14%;
+  bottom: 13.29%;
+  background: #c4c4c4;
+  border-radius: 10px;
+  border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 #labot {
   position: absolute;
   width: 286.67px;
@@ -136,19 +173,14 @@
   right: 42.96%;
   top: 41.14%;
   bottom: 13.29%;
-
   background: #c4c4c4;
   border-radius: 10px;
   border-style: none;
-
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-  line-height: 18px;
-
   cursor: pointer;
 }
+
 #dzest {
   position: absolute;
   width: 286.67px;
@@ -157,48 +189,96 @@
   right: 19.97%;
   top: 41.14%;
   bottom: 13.29%;
-
   background: #c4c4c4;
   border-radius: 10px;
   border-style: none;
-
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-  line-height: 18px;
-
   cursor: pointer;
 }
+
+#dzestLidmasinas {
+  position: absolute;
+  width: 286.67px;
+  height: 75.94px;
+  left: 61.45%;
+  right: 19.97%;
+  top: 41.14%;
+  bottom: 13.29%;
+  background: #c4c4c4;
+  border-radius: 10px;
+  border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#dzestReisi {
+  position: absolute;
+  width: 286.67px;
+  height: 75.94px;
+  left: 61.45%;
+  right: 19.97%;
+  top: 41.14%;
+  bottom: 13.29%;
+  background: #c4c4c4;
+  border-radius: 10px;
+  border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 .lidmasinas {
   position: absolute;
   left: 9.72%;
   right: 9.93%;
   top: 28.85%;
   bottom: 52.84%;
-
   background: #ffffff;
   border-radius: 10px;
 }
+
 .reisi {
   position: absolute;
   left: 9.93%;
   right: 9.72%;
   top: 49.36%;
   bottom: 32.33%;
-
   background: #ffffff;
   border-radius: 10px;
 }
+
 .statistika {
   position: absolute;
   left: 9.79%;
   right: 9.86%;
   top: 69.87%;
   bottom: 11.82%;
-
   background: #ffffff;
   border-radius: 10px;
+}
+
+#apaksvirsraksti {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  display: flex;
+  color: #000000;
+}
+
+#input {
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 883px;
+  height: 40px;
 }
 
 #popUp {
@@ -252,96 +332,48 @@
 }
 
 .tLidostasNosaukums {
-  position: absolute;
   width: 250px;
   height: 18px;
   left: 41px;
   top: 134px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 24px;
-  display: flex;
-  color: #000000;
 }
 
 .tSaīsinājums {
-  position: absolute;
-  width: 41px;
+  width: 250px;
   height: 18px;
   left: 43px;
   top: 227px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 24px;
-  display: flex;
-  color: #000000;
 }
 
 .tAdrese {
-  position: absolute;
   width: 41px;
   height: 18px;
   left: 43px;
   top: 326px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 24px;
-  display: flex;
-  color: #000000;
 }
 
-#LidostasNosaukums {
-  position: absolute;
+.LidostasNosaukums {
   left: 3.49%;
   right: 3.07%;
   top: 28.98%;
   bottom: 63.86%;
-  width: 883px;
-  height: 40px;
-  background: #ffffff;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 10px;
-  outline: none;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-#Saīsinājums {
-  position: absolute;
+.Saīsinājums {
   left: 3.49%;
   right: 3.07%;
   top: 46.33%;
   bottom: 46.51%;
-  width: 883px;
-  height: 40px;
-  background: #ffffff;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 10px;
-  outline: none;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-#Adrese {
-  position: absolute;
+.Adrese {
   left: 3.49%;
   right: 3.07%;
   top: 64.58%;
   bottom: 28.26%;
-  width: 883px;
-  height: 40px;
-  background: #ffffff;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 10px;
-  outline: none;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-#pievienotp {
+#pievienott {
   position: absolute;
   left: 80.63%;
   right: 3.07%;
@@ -358,10 +390,6 @@
 
 #atcelt {
   position: absolute;
-  left: 62.12%;
-  right: 21.59%;
-  top: 82.83%;
-  bottom: 8.59%;
   width: 154px;
   height: 48px;
   background: #ababab;
@@ -369,4 +397,162 @@
   outline: none;
   cursor: pointer;
   border: 1px solid transparent;
+}
+
+.atcelt {
+  left: 62.12%;
+  right: 21.59%;
+  top: 82.83%;
+  bottom: 8.59%;
+}
+
+#popUp1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.atceltLielakaDala {
+  left: 62.12%;
+  right: 21.59%;
+  top: 89.45%;
+  bottom: 1.97%;
+}
+
+#labott {
+  position: absolute;
+  left: 80.63%;
+  right: 3.07%;
+  top: 89.45%;
+  bottom: 1.97%;
+  width: 154px;
+  height: 48px;
+  background: #f1c933;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.tLidostasizvele {
+  width: 250px;
+  left: 3.17%;
+  right: 88.25%;
+  top: 18.43%;
+  bottom: 76.74%;
+}
+
+.tLidostasNosaukumsLabot {
+  width: 250px;
+  left: 2.75%;
+  right: 74.07%;
+  top: 37.21%;
+  bottom: 57.96%;
+}
+
+.tSaīsinājumsLabot {
+  width: 250px;
+  left: 3.28%;
+  right: 83.39%;
+  top: 55.99%;
+  bottom: 39.18%;
+}
+
+.tAdreseLabot {
+  width: 250px;
+  left: 2.54%;
+  right: 88.04%;
+  top: 73.35%;
+  bottom: 20.93%;
+}
+
+.Lidostasizvele {
+  left: 3.28%;
+  right: 3.28%;
+  top: 25.04%;
+  bottom: 67.8%;
+}
+
+.LidostasNosaukumsLabot {
+  left: 3.49%;
+  right: 3.07%;
+  top: 43.96%;
+  bottom: 48.88%;
+}
+
+.SaīsinājumsLabot {
+  left: 3.49%;
+  right: 3.07%;
+  top: 61.32%;
+  bottom: 31.53%;
+}
+
+.AdreseLabot {
+  left: 3.49%;
+  right: 3.07%;
+  top: 79.56%;
+  bottom: 13.28%;
+}
+
+#popUp2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tlidostasdzest {
+  left: 2.75%;
+  right: 89.31%;
+  top: 21.65%;
+  bottom: 73.52%;
+}
+
+.lidostasdzest {
+  left: 2.75%;
+  right: 3.81%;
+  top: 29.34%;
+  bottom: 63.51%;
+}
+
+#popUp5 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tlidostasNosaukumsDzestLidmasinu {
+  left: 3.7%;
+  right: 88.04%;
+  top: 32.2%;
+  bottom: 62.97%;
+}
+
+.lidostasNosaukumsDzestLidmasinu {
+  left: 3.49%;
+  right: 3.07%;
+  top: 37.21%;
+  bottom: 55.64%;
+}
+
+.lidmasinaModelis {
+  left: 3.49%;
+  right: 3.07%;
+  top: 54.03%;
+  bottom: 38.82%;
+}
+
+.tLidmasinaLidosta {
+  left: 3.39%;
+  right: 87.83%;
+  top: 49.02%;
+  bottom: 46.15%;
 }
