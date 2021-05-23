@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Post No Bills Colombo Medium";
+  src: url("/fonts/post-no-bills-colombo.medium.ttf");
+}
+
+.augsejaisBaneris {
+  position: absolute;
+  left: -0.07%;
+  right: 0.07%;
+  top: 0%;
+  bottom: 84.28%;
+
+  background: #073590;
+}
+.virsraksts {
+  position: absolute;
+  left: 0%;
+  right: 71.74%;
+  top: 0%;
+  bottom: 0%;
+  width: 542.67px;
+
+  font-family: Post No Bills Colombo Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 20px;
+  /* or 21% */
+
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01px;
+
+  color: #ffffff;
+}
+
+#iziet {
+  position: absolute;
+  width: 152px;
+  height: 50.63px;
+  left: 89.1%;
+  right: 2.99%;
+  top: 35.4%;
+  bottom: 34.78%;
+
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  cursor: pointer;
+}
+
+.apaksejaisBaneris {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 15.72%;
+  bottom: 0%;
+
+  background: rgba(186, 182, 182, 0.53);
+}
+.kalendars {
+  position: absolute;
+  height: 52.73px;
+  left: 16.09%;
+  right: 81.25%;
+  top: 9.36%;
+  bottom: 84.82%;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+.kalendarsBilde {
+  position: absolute;
+  width: 30.43px;
+  height: 31.63px;
+  left: 20.99%;
+  right: 19.34%;
+  top: 20%;
+  bottom: 19.34%;
+}
+.reisaNumursKaste {
+  position: absolute;
+  width: 1177.33px;
+  height: 53px;
+  left: 20.31%;
+  right: 18.37%;
+  top: 9.36%;
+  bottom: 84.85%;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+
+  outline: none;
+}
