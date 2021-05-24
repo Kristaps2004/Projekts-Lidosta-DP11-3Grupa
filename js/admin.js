@@ -42,3 +42,8 @@ document.getElementById("dzestReisi").addEventListener("click", () => {
   let popUp8 = document.getElementById("popUp8");
   popUp8.style.display = "block";
 });
+
+document.getElementById("labott").addEventListener("click", () => {
+  let popUp8 = document.getElementById("popUp8");
+  popUp8.style.display = "block";
+});
