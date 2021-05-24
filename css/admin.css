@@ -85,7 +85,7 @@
   color: #000000;
 }
 
-#pievienot {
+#pievienotLidostas {
   position: absolute;
   width: 286.67px;
   height: 75.94px;
@@ -165,7 +165,7 @@
   cursor: pointer;
 }
 
-#labot {
+#labotLidostas {
   position: absolute;
   width: 286.67px;
   height: 75.94px;
@@ -181,7 +181,7 @@
   cursor: pointer;
 }
 
-#dzest {
+#dzestLidostas {
   position: absolute;
   width: 286.67px;
   height: 75.94px;
@@ -229,6 +229,22 @@
   cursor: pointer;
 }
 
+#skatitStatistiku {
+  position: absolute;
+  width: 286.67px;
+  height: 75.94px;
+  left: 15.47%;
+  right: 65.95%;
+  top: 41.14%;
+  bottom: 13.29%;
+  background: #c4c4c4;
+  border-radius: 10px;
+  border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 .lidmasinas {
   position: absolute;
   left: 9.72%;
@@ -266,6 +282,7 @@
   font-size: 24px;
   display: flex;
   color: #000000;
+  width: 300px;
 }
 
 #input {
@@ -281,13 +298,17 @@
   height: 40px;
 }
 
-#popUp {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+#inputMazais {
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 307px;
+  height: 40px;
 }
 
 #form {
@@ -331,49 +352,58 @@
   color: #ffffff;
 }
 
-.tLidostasNosaukums {
-  width: 250px;
-  height: 18px;
-  left: 41px;
-  top: 134px;
+#popUp {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.tSaīsinājums {
-  width: 250px;
-  height: 18px;
-  left: 43px;
-  top: 227px;
+.tPievienotLidostasNosaukums {
+  left: 3.28%;
+  right: 74.5%;
+  top: 22%;
+  bottom: 72.99%;
 }
 
-.tAdrese {
-  width: 41px;
-  height: 18px;
-  left: 43px;
-  top: 326px;
+.tPievienotSaīsinājums {
+  left: 3.17%;
+  right: 83.7%;
+  top: 40.97%;
+  bottom: 54.2%;
 }
 
-.LidostasNosaukums {
+.tPievienotAdrese {
+  left: 3.49%;
+  right: 89.1%;
+  top: 58.32%;
+  bottom: 35.96%;
+}
+
+.pievienotLidostasNosaukums {
   left: 3.49%;
   right: 3.07%;
   top: 28.98%;
   bottom: 63.86%;
 }
 
-.Saīsinājums {
+.pievienotSaīsinājums {
   left: 3.49%;
   right: 3.07%;
   top: 46.33%;
   bottom: 46.51%;
 }
 
-.Adrese {
+.pievienotAdrese {
   left: 3.49%;
   right: 3.07%;
   top: 64.58%;
   bottom: 28.26%;
 }
 
-#pievienott {
+#pievienotLidostu {
   position: absolute;
   left: 80.63%;
   right: 3.07%;
@@ -437,23 +467,21 @@
   border: 1px solid transparent;
 }
 
-.tLidostasizvele {
-  width: 250px;
-  left: 3.17%;
-  right: 88.25%;
-  top: 18.43%;
-  bottom: 76.74%;
+.tLabotLidostasizvele {
+  left: 3.49%;
+  right: 87.94%;
+  top: 18.25%;
+  bottom: 76.92%;
 }
 
-.tLidostasNosaukumsLabot {
-  width: 250px;
-  left: 2.75%;
-  right: 74.07%;
+.tLabotLidostasNosaukums {
+  left: 3.49%;
+  right: 74.29%;
   top: 37.21%;
   bottom: 57.96%;
 }
 
-.tSaīsinājumsLabot {
+.tLabotSaīsinājums {
   width: 250px;
   left: 3.28%;
   right: 83.39%;
@@ -461,36 +489,35 @@
   bottom: 39.18%;
 }
 
-.tAdreseLabot {
-  width: 250px;
-  left: 2.54%;
-  right: 88.04%;
-  top: 73.35%;
-  bottom: 20.93%;
+.tLabotAdrese {
+  left: 3.49%;
+  right: 88.78%;
+  top: 73.52%;
+  bottom: 20.75%;
 }
 
-.Lidostasizvele {
+.labotLidostasizvele {
   left: 3.28%;
   right: 3.28%;
   top: 25.04%;
   bottom: 67.8%;
 }
 
-.LidostasNosaukumsLabot {
+.labotLidostasNosaukums {
   left: 3.49%;
   right: 3.07%;
   top: 43.96%;
   bottom: 48.88%;
 }
 
-.SaīsinājumsLabot {
+.labotSaīsinājums {
   left: 3.49%;
   right: 3.07%;
   top: 61.32%;
   bottom: 31.53%;
 }
 
-.AdreseLabot {
+.labotAdrese {
   left: 3.49%;
   right: 3.07%;
   top: 79.56%;
@@ -506,18 +533,148 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.tlidostasdzest {
+.tdzestlidostas {
   left: 2.75%;
   right: 89.31%;
   top: 21.65%;
   bottom: 73.52%;
 }
 
-.lidostasdzest {
+.dzestlidostas {
   left: 2.75%;
   right: 3.81%;
   top: 29.34%;
   bottom: 63.51%;
+}
+
+#popUp3 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tIzveletiesLidostu {
+  left: 3.28%;
+  right: 88.57%;
+  top: 16.64%;
+  bottom: 78.53%;
+}
+
+.tPievienotModeli {
+  left: 3.39%;
+  right: 87.72%;
+  top: 33.45%;
+  bottom: 61.72%;
+}
+
+.tPievienotRazosanasGads {
+  left: 3.39%;
+  right: 79.26%;
+  top: 49.91%;
+  bottom: 45.26%;
+}
+
+.tPievienotVietuSkaits {
+  left: 3.39%;
+  right: 83.92%;
+  top: 68.34%;
+  bottom: 25.94%;
+}
+
+.izveletiesLidostu {
+  left: 3.49%;
+  right: 3.07%;
+  top: 21.65%;
+  bottom: 71.2%;
+}
+
+.pievienotModeli {
+  left: 3.49%;
+  right: 3.07%;
+  top: 38.46%;
+  bottom: 54.38%;
+}
+
+.pievienotRazosanasGads {
+  left: 3.49%;
+  right: 3.07%;
+  top: 55.81%;
+  bottom: 37.03%;
+}
+
+.pievienotVietuSkaits {
+  left: 3.49%;
+  right: 3.07%;
+  top: 74.06%;
+  bottom: 18.78%;
+}
+
+#popUp4 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tLabotLidmasinas {
+  left: 3.28%;
+  right: 88.57%;
+  top: 16.64%;
+  bottom: 78.53%;
+}
+
+.tLabotModeli {
+  left: 3.39%;
+  right: 87.72%;
+  top: 33.45%;
+  bottom: 61.72%;
+}
+
+.tLabotRazosanasGads {
+  left: 3.39%;
+  right: 79.26%;
+  top: 49.91%;
+  bottom: 45.26%;
+}
+
+.tLabotVietuSkaits {
+  left: 3.39%;
+  right: 83.92%;
+  top: 68.34%;
+  bottom: 25.94%;
+}
+
+.labotLidmasinas {
+  left: 3.49%;
+  right: 3.07%;
+  top: 21.65%;
+  bottom: 71.2%;
+}
+
+.labotModeli {
+  left: 3.49%;
+  right: 3.07%;
+  top: 38.46%;
+  bottom: 54.38%;
+}
+
+.labotRazosanasGads {
+  left: 3.49%;
+  right: 3.07%;
+  top: 55.81%;
+  bottom: 37.03%;
+}
+
+.labotVietuSkaits {
+  left: 3.49%;
+  right: 3.07%;
+  top: 74.06%;
+  bottom: 18.78%;
 }
 
 #popUp5 {
@@ -529,30 +686,183 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.tlidostasNosaukumsDzestLidmasinu {
-  left: 3.7%;
-  right: 88.04%;
-  top: 32.2%;
-  bottom: 62.97%;
+.tIzveletiesModeli {
+  left: 3.28%;
+  right: 87.94%;
+  top: 32.02%;
+  bottom: 63.15%;
 }
 
-.lidostasNosaukumsDzestLidmasinu {
-  left: 3.49%;
-  right: 3.07%;
-  top: 37.21%;
-  bottom: 55.64%;
-}
-
-.lidmasinaModelis {
-  left: 3.49%;
-  right: 3.07%;
-  top: 54.03%;
-  bottom: 38.82%;
-}
-
-.tLidmasinaLidosta {
+.izveletiesModeli {
   left: 3.39%;
-  right: 87.83%;
-  top: 49.02%;
-  bottom: 46.15%;
+  right: 3.17%;
+  top: 37.03%;
+  bottom: 55.81%;
+}
+
+#popUp6 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tPievienotIzlidosanasDatumu {
+  left: 2.96%;
+  right: 75.24%;
+  top: 25.76%;
+  bottom: 69.41%;
+}
+
+.tPievienotLaiku {
+  left: 3.17%;
+  right: 90.69%;
+  top: 44.36%;
+  bottom: 50.98%;
+}
+
+.tPievienotNo {
+  left: 3.49%;
+  right: 91.75%;
+  top: 61.72%;
+  bottom: 32.56%;
+}
+
+.tPievienotUz {
+  left: 39.15%;
+  right: 56.83%;
+  top: 61.72%;
+  bottom: 32.56%;
+}
+
+.pievienotIzlidosanasDatumu {
+  left: 3.49%;
+  right: 3.07%;
+  top: 32.34%;
+  bottom: 60.51%;
+}
+
+.pievienotLaiku {
+  left: 3.49%;
+  right: 3.07%;
+  top: 49.69%;
+  bottom: 43.15%;
+}
+
+.pievienotNo {
+  left: 3.49%;
+  right: 64.02%;
+  top: 67.94%;
+  bottom: 24.91%;
+}
+
+.pievienotUz {
+  left: 39.15%;
+  right: 28.36%;
+  top: 67.44%;
+  bottom: 25.4%;
+}
+
+#popUp7 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tIzveletiesReisaNumuru {
+  left: 3.39%;
+  right: 81.69%;
+  top: 16.64%;
+  bottom: 78.53%;
+}
+
+.tLabotIzlidosanasDatumu {
+  left: 3.49%;
+  right: 75.77%;
+  top: 35.06%;
+  bottom: 60.11%;
+}
+
+.tLabotLaiku {
+  left: 3.28%;
+  right: 90.9%;
+  top: 53.67%;
+  bottom: 41.68%;
+}
+
+.tLabotNo {
+  left: 3.49%;
+  right: 92.28%;
+  top: 71.02%;
+  bottom: 23.26%;
+}
+
+.tLabotUz {
+  left: 39.15%;
+  right: 57.04%;
+  top: 71.02%;
+  bottom: 23.26%;
+}
+
+.izveletiesReisaNumuru {
+  left: 3.49%;
+  right: 3.07%;
+  top: 22.72%;
+  bottom: 70.13%;
+}
+
+.labotIzlidosanasDatumu {
+  left: 3.49%;
+  right: 3.07%;
+  top: 41.64%;
+  bottom: 51.21%;
+}
+
+.labotLaiku {
+  left: 3.49%;
+  right: 3.07%;
+  top: 58.99%;
+  bottom: 33.85%;
+}
+
+.labotNo {
+  left: 3.49%;
+  right: 64.02%;
+  top: 77.24%;
+  bottom: 15.61%;
+}
+
+.labotUz {
+  left: 39.15%;
+  right: 28.36%;
+  top: 77.24%;
+  bottom: 15.61%;
+}
+
+#popUp8 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tDzestReisu {
+  left: 3.17%;
+  right: 81.48%;
+  top: 21.47%;
+  bottom: 73.7%;
+}
+
+.dzestReisu {
+  left: 3.49%;
+  right: 3.07%;
+  top: 27.55%;
+  bottom: 65.3%;
 }
