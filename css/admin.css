@@ -21,15 +21,12 @@
 .virsraksts {
   position: absolute;
   left: 0%;
-  right: 71.74%;
-  top: 0%;
-  bottom: 0%;
-  width: 542.67px;
   font-family: Post No Bills Colombo Medium;
   font-size: 96px;
   display: flex;
   margin-left: 20px;
   color: #ffffff;
+  user-select: none;
 }
 
 #iziet {
@@ -37,9 +34,7 @@
   width: 152px;
   height: 50.63px;
   left: 89.1%;
-  right: 2.99%;
   top: 35.4%;
-  bottom: 34.78%;
   background: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -314,14 +309,11 @@
 #form {
   position: absolute;
   left: 25.36%;
-  right: 25.42%;
   top: 21.94%;
-  bottom: 26.3%;
   width: 945px;
   height: 559px;
   background: #ffffff;
   border-radius: 10px;
-  z-index: 1;
 }
 
 .miniAugsa {
@@ -338,9 +330,7 @@
 #miniVirsraksts {
   position: absolute;
   left: 2.01%;
-  right: 83.81%;
   top: 3.76%;
-  bottom: 90.16%;
   width: 134px;
   height: 34px;
   top: 14px;
@@ -363,52 +353,38 @@
 
 .tPievienotLidostasNosaukums {
   left: 3.28%;
-  right: 74.5%;
   top: 22%;
-  bottom: 72.99%;
 }
 
 .tPievienotSaīsinājums {
   left: 3.17%;
-  right: 83.7%;
   top: 40.97%;
-  bottom: 54.2%;
 }
 
 .tPievienotAdrese {
   left: 3.49%;
-  right: 89.1%;
   top: 58.32%;
-  bottom: 35.96%;
 }
 
 .pievienotLidostasNosaukums {
   left: 3.49%;
-  right: 3.07%;
   top: 28.98%;
-  bottom: 63.86%;
 }
 
 .pievienotSaīsinājums {
   left: 3.49%;
-  right: 3.07%;
   top: 46.33%;
-  bottom: 46.51%;
 }
 
 .pievienotAdrese {
   left: 3.49%;
-  right: 3.07%;
   top: 64.58%;
-  bottom: 28.26%;
 }
 
 #pievienotLidostu {
   position: absolute;
   left: 80.63%;
-  right: 3.07%;
   top: 82.83%;
-  bottom: 8.59%;
   width: 154px;
   height: 48px;
   background: #f1c933;
@@ -431,9 +407,7 @@
 
 .atcelt {
   left: 62.12%;
-  right: 21.59%;
   top: 82.83%;
-  bottom: 8.59%;
 }
 
 #popUp1 {
@@ -447,17 +421,13 @@
 
 .atceltLielakaDala {
   left: 62.12%;
-  right: 21.59%;
   top: 89.45%;
-  bottom: 1.97%;
 }
 
 #labott {
   position: absolute;
   left: 80.63%;
-  right: 3.07%;
   top: 89.45%;
-  bottom: 1.97%;
   width: 154px;
   height: 48px;
   background: #f1c933;
@@ -469,59 +439,42 @@
 
 .tLabotLidostasizvele {
   left: 3.49%;
-  right: 87.94%;
   top: 18.25%;
-  bottom: 76.92%;
 }
 
 .tLabotLidostasNosaukums {
   left: 3.49%;
-  right: 74.29%;
   top: 37.21%;
-  bottom: 57.96%;
 }
 
 .tLabotSaīsinājums {
-  width: 250px;
   left: 3.28%;
-  right: 83.39%;
   top: 55.99%;
-  bottom: 39.18%;
 }
 
 .tLabotAdrese {
   left: 3.49%;
-  right: 88.78%;
   top: 73.52%;
-  bottom: 20.75%;
 }
 
 .labotLidostasizvele {
   left: 3.28%;
-  right: 3.28%;
   top: 25.04%;
-  bottom: 67.8%;
 }
 
 .labotLidostasNosaukums {
   left: 3.49%;
-  right: 3.07%;
   top: 43.96%;
-  bottom: 48.88%;
 }
 
 .labotSaīsinājums {
   left: 3.49%;
-  right: 3.07%;
   top: 61.32%;
-  bottom: 31.53%;
 }
 
 .labotAdrese {
   left: 3.49%;
-  right: 3.07%;
   top: 79.56%;
-  bottom: 13.28%;
 }
 
 #popUp2 {
@@ -535,16 +488,12 @@
 
 .tdzestlidostas {
   left: 2.75%;
-  right: 89.31%;
   top: 21.65%;
-  bottom: 73.52%;
 }
 
 .dzestlidostas {
   left: 2.75%;
-  right: 3.81%;
   top: 29.34%;
-  bottom: 63.51%;
 }
 
 #popUp3 {
@@ -558,58 +507,42 @@
 
 .tIzveletiesLidostu {
   left: 3.28%;
-  right: 88.57%;
   top: 16.64%;
-  bottom: 78.53%;
 }
 
 .tPievienotModeli {
   left: 3.39%;
-  right: 87.72%;
   top: 33.45%;
-  bottom: 61.72%;
 }
 
 .tPievienotRazosanasGads {
   left: 3.39%;
-  right: 79.26%;
   top: 49.91%;
-  bottom: 45.26%;
 }
 
 .tPievienotVietuSkaits {
   left: 3.39%;
-  right: 83.92%;
   top: 68.34%;
-  bottom: 25.94%;
 }
 
 .izveletiesLidostu {
   left: 3.49%;
-  right: 3.07%;
   top: 21.65%;
-  bottom: 71.2%;
 }
 
 .pievienotModeli {
   left: 3.49%;
-  right: 3.07%;
   top: 38.46%;
-  bottom: 54.38%;
 }
 
 .pievienotRazosanasGads {
   left: 3.49%;
-  right: 3.07%;
   top: 55.81%;
-  bottom: 37.03%;
 }
 
 .pievienotVietuSkaits {
   left: 3.49%;
-  right: 3.07%;
   top: 74.06%;
-  bottom: 18.78%;
 }
 
 #popUp4 {
@@ -623,58 +556,42 @@
 
 .tLabotLidmasinas {
   left: 3.28%;
-  right: 88.57%;
   top: 16.64%;
-  bottom: 78.53%;
 }
 
 .tLabotModeli {
   left: 3.39%;
-  right: 87.72%;
   top: 33.45%;
-  bottom: 61.72%;
 }
 
 .tLabotRazosanasGads {
   left: 3.39%;
-  right: 79.26%;
   top: 49.91%;
-  bottom: 45.26%;
 }
 
 .tLabotVietuSkaits {
   left: 3.39%;
-  right: 83.92%;
   top: 68.34%;
-  bottom: 25.94%;
 }
 
 .labotLidmasinas {
   left: 3.49%;
-  right: 3.07%;
   top: 21.65%;
-  bottom: 71.2%;
 }
 
 .labotModeli {
   left: 3.49%;
-  right: 3.07%;
   top: 38.46%;
-  bottom: 54.38%;
 }
 
 .labotRazosanasGads {
   left: 3.49%;
-  right: 3.07%;
   top: 55.81%;
-  bottom: 37.03%;
 }
 
 .labotVietuSkaits {
   left: 3.49%;
-  right: 3.07%;
   top: 74.06%;
-  bottom: 18.78%;
 }
 
 #popUp5 {
@@ -688,16 +605,12 @@
 
 .tIzveletiesModeli {
   left: 3.28%;
-  right: 87.94%;
   top: 32.02%;
-  bottom: 63.15%;
 }
 
 .izveletiesModeli {
   left: 3.39%;
-  right: 3.17%;
   top: 37.03%;
-  bottom: 55.81%;
 }
 
 #popUp6 {
@@ -711,58 +624,42 @@
 
 .tPievienotIzlidosanasDatumu {
   left: 2.96%;
-  right: 75.24%;
   top: 25.76%;
-  bottom: 69.41%;
 }
 
 .tPievienotLaiku {
   left: 3.17%;
-  right: 90.69%;
   top: 44.36%;
-  bottom: 50.98%;
 }
 
 .tPievienotNo {
   left: 3.49%;
-  right: 91.75%;
   top: 61.72%;
-  bottom: 32.56%;
 }
 
 .tPievienotUz {
   left: 39.15%;
-  right: 56.83%;
   top: 61.72%;
-  bottom: 32.56%;
 }
 
 .pievienotIzlidosanasDatumu {
   left: 3.49%;
-  right: 3.07%;
   top: 32.34%;
-  bottom: 60.51%;
 }
 
 .pievienotLaiku {
   left: 3.49%;
-  right: 3.07%;
   top: 49.69%;
-  bottom: 43.15%;
 }
 
 .pievienotNo {
   left: 3.49%;
-  right: 64.02%;
   top: 67.94%;
-  bottom: 24.91%;
 }
 
 .pievienotUz {
   left: 39.15%;
-  right: 28.36%;
   top: 67.44%;
-  bottom: 25.4%;
 }
 
 #popUp7 {
@@ -776,72 +673,52 @@
 
 .tIzveletiesReisaNumuru {
   left: 3.39%;
-  right: 81.69%;
   top: 16.64%;
-  bottom: 78.53%;
 }
 
 .tLabotIzlidosanasDatumu {
   left: 3.49%;
-  right: 75.77%;
   top: 35.06%;
-  bottom: 60.11%;
 }
 
 .tLabotLaiku {
   left: 3.28%;
-  right: 90.9%;
   top: 53.67%;
-  bottom: 41.68%;
 }
 
 .tLabotNo {
   left: 3.49%;
-  right: 92.28%;
   top: 71.02%;
-  bottom: 23.26%;
 }
 
 .tLabotUz {
   left: 39.15%;
-  right: 57.04%;
   top: 71.02%;
-  bottom: 23.26%;
 }
 
 .izveletiesReisaNumuru {
   left: 3.49%;
-  right: 3.07%;
   top: 22.72%;
-  bottom: 70.13%;
 }
 
 .labotIzlidosanasDatumu {
   left: 3.49%;
-  right: 3.07%;
   top: 41.64%;
-  bottom: 51.21%;
 }
 
 .labotLaiku {
   left: 3.49%;
-  right: 3.07%;
   top: 58.99%;
-  bottom: 33.85%;
 }
 
 .labotNo {
   left: 3.49%;
-  right: 64.02%;
   top: 77.24%;
-  bottom: 15.61%;
 }
 
 .labotUz {
   left: 39.15%;
-  right: 28.36%;
   top: 77.24%;
-  bottom: 15.61%;
 }
 
 #popUp8 {
@@ -855,14 +732,97 @@
 
 .tDzestReisu {
   left: 3.17%;
-  right: 81.48%;
   top: 21.47%;
-  bottom: 73.7%;
 }
 
 .dzestReisu {
   left: 3.49%;
-  right: 3.07%;
   top: 27.55%;
-  bottom: 65.3%;
+}
+
+#popUp9 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#superMiniForm {
+  position: absolute;
+  left: 17.88%;
+  top: 17.71%;
+  width: 607px;
+  height: 361px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.superMiniAugsa {
+  position: absolute;
+  width: 607px;
+  height: 50, 3px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 86.07%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #073590;
+}
+
+#superMiniVirsraksts {
+  position: absolute;
+  left: 2.97%;
+  top: 15%;
+  width: 90px;
+  font-family: Post No Bills Colombo;
+  font-size: 24px;
+  display: flex;
+  color: #ffffff;
+}
+
+.tTiesam {
+  position: absolute;
+  left: 24.71%;
+  right: 24.55%;
+  top: 46.26%;
+  bottom: 46.26%;
+  width: 308px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#turpinat {
+  position: absolute;
+  left: 64.38%;
+  right: 6.3%;
+  top: 77.42%;
+  bottom: 6.45%;
+  width: 154px;
+  height: 48px;
+  background: #fa1818;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.atceltMini {
+  position: absolute;
+  left: 6.3%;
+  right: 63.56%;
+  top: 77.88%;
+  bottom: 6.45%;
+  width: 154px;
+  height: 48px;
+  background: #ababab;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid transparent;
 }
