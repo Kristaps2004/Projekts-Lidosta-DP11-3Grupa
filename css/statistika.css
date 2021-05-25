@@ -9,9 +9,9 @@
   right: 0.07%;
   top: 0%;
   bottom: 84.28%;
-
   background: #073590;
 }
+
 .virsraksts {
   position: absolute;
   left: 0%;
@@ -19,43 +19,30 @@
   top: 0%;
   bottom: 0%;
   width: 542.67px;
-
+  user-select: none;
   font-family: Post No Bills Colombo Medium;
   font-style: normal;
   font-weight: 500;
   font-size: 96px;
-  line-height: 20px;
-  /* or 21% */
-
   display: flex;
   margin-left: 20px;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.01px;
-
   color: #ffffff;
 }
 
-#iziet {
+#atpakal {
   position: absolute;
   width: 152px;
   height: 50.63px;
   left: 89.1%;
-  right: 2.99%;
   top: 35.4%;
-  bottom: 34.78%;
-
   background: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-style: none;
-
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 15px;
-  line-height: 18px;
-
   cursor: pointer;
 }
 
@@ -65,9 +52,9 @@
   right: 0%;
   top: 15.72%;
   bottom: 0%;
-
   background: rgba(186, 182, 182, 0.53);
 }
+
 .kalendars {
   position: absolute;
   height: 52.73px;
@@ -75,10 +62,10 @@
   right: 81.25%;
   top: 9.36%;
   bottom: 84.82%;
-
   background: #ffffff;
   border-radius: 10px;
 }
+
 .kalendarsBilde {
   position: absolute;
   width: 30.43px;
@@ -88,6 +75,7 @@
   top: 20%;
   bottom: 19.34%;
 }
+
 .reisaNumursKaste {
   position: absolute;
   width: 1177.33px;
@@ -96,16 +84,14 @@
   right: 18.37%;
   top: 9.36%;
   bottom: 84.85%;
-
   background: #ffffff;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 10px;
-
   padding-left: 20px;
+  padding-right: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-
   outline: none;
 }
 
@@ -115,7 +101,6 @@
   right: 10.57%;
   top: 21.56%;
   bottom: 15.82%;
-
   background: #ffffff;
   border-radius: 10px;
 }
@@ -128,7 +113,6 @@
   right: 18.28%;
   top: 5%;
   bottom: 58.78%;
-
   background: #ffffff;
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -143,18 +127,11 @@
   right: 2.15%;
   top: 88.53%;
   bottom: 3.13%;
-
   background: #ffffff;
   border-radius: 10px;
-
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 24px;
-  line-height: 18px;
-
   border-style: none;
-
   cursor: pointer;
 }
 
@@ -172,15 +149,12 @@
   right: 87.12%;
   top: 17.93%;
   bottom: 17.93%;
-
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-
   display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-
   color: #000000;
 }
 
@@ -190,12 +164,9 @@
   right: 58.14%;
   top: 31.17%;
   bottom: 42.86%;
-
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-
   display: flex;
-
   color: #000000;
 }
 
@@ -205,12 +176,9 @@
   right: 60.49%;
   top: 57.14%;
   bottom: 30.52%;
-
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-
   display: flex;
-
   color: #000000;
 }
 
@@ -220,12 +188,9 @@
   right: 26.45%;
   top: 44.16%;
   bottom: 43.51%;
-
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-
   display: flex;
-
   color: #000000;
 }
 
@@ -235,11 +200,8 @@
   right: 8.22%;
   top: 44.16%;
   bottom: 43.51%;
-
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-
   display: flex;
-
   color: #000000;
 }
