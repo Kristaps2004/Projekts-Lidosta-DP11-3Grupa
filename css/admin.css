@@ -424,10 +424,8 @@
   top: 89.45%;
 }
 
-#labott {
+.dzeltenaPoga {
   position: absolute;
-  left: 80.63%;
-  top: 89.45%;
   width: 154px;
   height: 48px;
   background: #f1c933;
@@ -435,6 +433,46 @@
   outline: none;
   cursor: pointer;
   border: 1px solid transparent;
+}
+
+#labotLidostuPoga {
+  left: 80.63%;
+  top: 89.45%;
+}
+
+#dzestLidostuPoga {
+  left: 80.63%;
+  top: 89.45%;
+}
+
+#pievienotLidmasinasPoga {
+  left: 80.63%;
+  top: 89.45%;
+}
+
+#labotLidmasinasPoga {
+  left: 80.63%;
+  top: 89.45%;
+}
+
+#dzestLidmasinasPoga {
+  left: 80.63%;
+  top: 89.45%;
+}
+
+#pievienotReisiPoga {
+  left: 80.63%;
+  top: 89.45%;
+}
+
+#labotReisiPoga {
+  left: 80.63%;
+  top: 89.45%;
+}
+
+#dzestReisiPoga {
+  left: 80.63%;
+  top: 89.45%;
 }
 
 .tLabotLidostasizvele {
