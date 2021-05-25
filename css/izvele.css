@@ -141,7 +141,7 @@
 
 .miniVirsraksts {
   position: absolute;
-  left: 4.05%;
+  left: 3.75%;
   right: 84.26%;
   top: 12.07%;
   bottom: 83.17%;
@@ -331,4 +331,138 @@
   border-radius: 10px;
   padding-left: 20px;
   outline: none;
+}
+
+#ilgums {
+  position: absolute;
+  left: 42.39%;
+  right: 48.92%;
+  top: 74.44%;
+  bottom: 17.76%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.infoBilete {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 18px;
+  /* or 75% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.reisaNumurs {
+  position: absolute;
+  top: 7.59%;
+  bottom: 81.01%;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 112% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01px;
+
+  color: #898181;
+}
+
+#reisaNumursTeksts {
+  left: 2.42%;
+  right: 89.37%;
+}
+
+#reisaNumurs {
+  left: 8.75%;
+  right: 83.49%;
+}
+
+#atiesanasDatums {
+  position: absolute;
+  left: 6.03%;
+  right: 92.09%;
+  top: 29.32%;
+  bottom: 58.68%;
+}
+
+#atiesanasMenesis {
+  position: absolute;
+  left: 5.38%;
+  right: 91.44%;
+  top: 47.92%;
+  bottom: 38.28%;
+}
+
+#atiesanasLaiks {
+  position: absolute;
+  left: 24.96%;
+  right: 70.76%;
+  top: 26.32%;
+  bottom: 51.48%;
+}
+
+#atiesanasPilseta {
+  position: absolute;
+  left: 24.96%;
+  right: 70.76%;
+  top: 48.52%;
+  bottom: 35.28%;
+}
+
+#ielidosanasLaiks {
+  position: absolute;
+  left: 65.6%;
+  right: 30.45%;
+  top: 30.52%;
+  bottom: 55.08%;
+}
+
+#ielidosanasPilseta {
+  position: absolute;
+  left: 64.11%;
+  right: 28.95%;
+  top: 47.92%;
+  bottom: 38.28%;
+}
+
+#biletesCena {
+  position: absolute;
+  left: 86.73%;
+  right: 7.5%;
+  top: 38.92%;
+  bottom: 43.68%;
+}
+
+.pasazieris {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#rezervet {
+  height: 50.625px;
+  width: 205.33px;
+  position: absolute;
+  left: 79.44%;
+  right: 9.86%;
+  top: 89.11%;
+  bottom: 5.33%;
+  outline: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  background: #f1c933;
+  border-radius: 8px;
 }
