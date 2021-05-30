@@ -47,3 +47,13 @@ document.getElementById("labott").addEventListener("click", () => {
   let popUp8 = document.getElementById("popUp8");
   popUp8.style.display = "block";
 });
+
+//form
+
+function validateForm() {
+  var x = document.forms["pievienotLidostuForm"]["nosaukums"].value;
+  /*if (x == "") {
+    alert("Nav ievadīts lidostas nosaukums");
+    return false;
+  }*/
+}

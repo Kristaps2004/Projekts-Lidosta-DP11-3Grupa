@@ -40,18 +40,20 @@
       </div>
     </div>
     <div id="popUp">
-      <form id="form">
-        <div class="miniAugsa">
-          <h2 id="miniVirsraksts">OrmondAir</h2>
+      <form id="pievienotLidostuForm" onsubmit=" validateForm()" method="post">
+        <div class="miniapaksa">
+          <div class="miniAugsa">
+            <h2 id="miniVirsraksts">OrmondAir</h2>
+          </div>
+          <h3 class="tPievienotLidostasNosaukums" id="apaksvirsraksti">Lidostas Nosaukums</h3>
+          <input type="text" id="input" class="pievienotLidostasNosaukums" name="nosaukums" placeholder="" />
+          <h3 class="tPievienotSaīsinājums" id="apaksvirsraksti">Saīsinājums</h3>
+          <input type="text" id="input" class="pievienotSaīsinājums" placeholder="" />
+          <h3 class="tPievienotAdrese" id="apaksvirsraksti">Adrese</h3>
+          <input type="text" id="input" class="pievienotAdrese" placeholder="" />
+          <button type="submit" id="pievienotLidostu">Pievienot</button>
+          <button id="atcelt" class="atcelt">Atcelt</button>
         </div>
-        <h3 class="tPievienotLidostasNosaukums" id="apaksvirsraksti">Lidostas Nosaukums</h3>
-        <input type="text" id="input" class="pievienotLidostasNosaukums" placeholder="" />
-        <h3 class="tPievienotSaīsinājums" id="apaksvirsraksti">Saīsinājums</h3>
-        <input type="text" id="input" class="pievienotSaīsinājums" placeholder="" />
-        <h3 class="tPievienotAdrese" id="apaksvirsraksti">Adrese</h3>
-        <input type="text" id="input" class="pievienotAdrese" placeholder="" />
-        <button type="submit" id="pievienotLidostu">Pievienot</button>
-        <button id="atcelt" class="atcelt">Atcelt</button>
       </form>
     </div>
     <div id="popUp1">
