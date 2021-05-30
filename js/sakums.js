@@ -3,7 +3,7 @@ document.getElementById("login").addEventListener("click", () => {
   popUp.style.display = "block";
 });
 
-document.getElementById("registreties").addEventListener("click", () => {
+document.getElementById("nakamais").addEventListener("click", () => {
   let popUp1 = document.getElementById("popUp1");
   popUp1.style.display = "block";
 });

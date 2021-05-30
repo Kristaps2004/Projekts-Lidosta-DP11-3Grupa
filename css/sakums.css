@@ -104,6 +104,36 @@
   border-radius: 20px;
 }
 
+#main_menu {
+  position: absolute;
+  left: 18.96%;
+  right: 55.56%;
+  top: 50%;
+  bottom: 40.43%;
+  width: 489.33px;
+  height: 48.45px;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+  border: 1px solid transparent;
+  padding-right: 20px;
+}
+
+#sub_menu {
+  position: absolute;
+  left: 45%;
+  right: 29.9%;
+  top: 70%;
+  bottom: 40.93%;
+  width: 489.33px;
+  height: 48.45px;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+  border: 1px solid transparent;
+  padding-right: 20px;
+}
+
 .mekletNo {
   position: absolute;
   left: 18.96%;
